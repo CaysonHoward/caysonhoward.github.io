@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+/* Header of the Page */
+header{
+    background-color: #8dd7f6;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: #3f83fc;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 5px;
+}
+nav a:hover{
+    color: white;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+.logo{
+    width: 80px;
+    padding: 15px 15px;
+    margin-top: 0px;
+}
+
+.log{
+    width: 80px;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+#hero-image{
+    width: 100%;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+h4{
+    color: #8dd7f6;
+}
+.book, .home{
+    color: #87bfff;
+}
+.button-box{
+    text-align: center;
+} 
+main section{
+    text-align: center;
+}
+main section img{
+    box-sizing: border-box;
+}
+#background{
+    height: 725px;
+}
+
+.home-title{
+    font-family: "Gemunu Libre";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+home-title{
+    color: #87BFFF;
+}
+
+.book, .join{
+    background-color: #8dd7f6;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.card-img{
+    border: black 10px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+
+.book:hover, .join:hover{
+    background-color: #87bfff;
+    color:  white;
+}
+
+#background{
+    background-color: #87BFFF;
+}
+.msg{
+    background-color: #87bfff;
+    line-height: 1.5em;
+    padding: 35px;
+}
+h2{
+    margin: 0;
+}
+.msg h2{
+    color: #3f83fc;
+    font-family: "Sans Condensed";
+}
+.msg p{
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer{
+  background-color: #3f83fc;
+  text-align: center;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer h3{
+    color: #3f83fc;
+    text-decoration: underline;
+}
+footer a{
+    color: #87bfff;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#8dd7f6;
+    text-decoration: none;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.social{
+    text-decoration: none;
+}

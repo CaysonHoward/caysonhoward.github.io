@@ -92,6 +92,13 @@ main section img{
     font-size: 2em;
     margin-top: 10px;
 }
+.home-grid {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr)
+}
 
 body{
     background-color: white;

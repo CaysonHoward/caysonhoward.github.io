@@ -172,7 +172,33 @@ header a{
   }
   
   /*Home Page Product Placement*/
-
+  .main_page_products{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 200px 1fr 100px;
+    grid-template-rows: 1fr 200px 1fr;
+  }
+  .application_windows{
+    grid-column: 2;
+    grid-row: 1;
+    width: 600px;
+    height: 300px;
+  }
+  .windows_msg{
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .application_phone{
+    align-self: center;
+    grid-column: 2;
+    grid-row: 3;
+    width: 250px;
+    height: 400px;
+  }
+  .app_msg{
+    grid-column: 4;
+    grid-row: 3;
+  }
 
   /*Footer*/
   footer{

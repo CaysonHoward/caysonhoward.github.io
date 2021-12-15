@@ -312,17 +312,8 @@ header a{
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
     #background {
         display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
     }
     footer {
         margin-top: 25px;
@@ -332,10 +323,10 @@ header a{
 form {
     /* Center the form on the page */
     margin: 0 auto;
+    margin-top: 125px;
+    margin-bottom: 125px;
     width: 500px;
     /* Form outline */
-    padding-top: 125px;
-    padding-bottom: 125px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;

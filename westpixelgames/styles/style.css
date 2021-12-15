@@ -173,6 +173,7 @@ header a{
   
   /*Home Page Product Placement*/
   .main_page_products{
+    align-content: center;
     padding-top: 30px;
     display: grid;
     grid-template-columns: 100px 1fr 200px 1fr 100px;
@@ -189,7 +190,6 @@ header a{
     grid-row: 1;
   }
   .application_phone{
-    align-self: center;
     grid-column: 2;
     grid-row: 3;
     width: 250px;
@@ -205,7 +205,6 @@ header a{
     background-color: #d8c3a5;
     text-align: center;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -229,7 +228,61 @@ header a{
       text-decoration: none;
   }
 
-
+/* Our apps page css */
+.apps-page-2{
+  background-color: #e98074;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.window1{
+  padding-top: 100px;
+  grid-column: 2;
+}
+.msga1{
+  padding-top: 100px;
+  grid-column: 4;
+}
+.window2{
+  padding-top: 100px;
+  grid-column: 2;
+}
+.msga2{
+  padding-top: 100px;
+  grid-column: 4;
+}
+.window3{
+  padding-top: 100px;
+  grid-column: 2;
+}
+.msga3{
+  padding-top: 100px;
+  grid-column: 4;
+}
+.window4{
+  padding-top: 100px;
+  grid-column: 2;
+}
+.msga4{
+  padding-top: 100px;
+  grid-column: 4; 
+}
+.window5{
+  padding-top: 100px;
+  grid-column: 2;
+}
+.msga5{
+  padding-top: 100px;
+  grid-column: 4;
+}
+.window6{
+  padding-top: 100px;
+  grid-column: 2;
+  padding-bottom: 100px;
+}
+.msga6{
+  padding-top: 100px;
+  grid-column: 4;
+}
 
 
 /*Contract Us CSS*/
